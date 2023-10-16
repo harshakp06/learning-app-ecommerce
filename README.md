@@ -21,7 +21,7 @@ sudo systemctl enable firewalld
 ```
 sudo yum install -y mariadb-server
 sudo vi /etc/my.cnf
-sudo service mariadb start
+sudo systemctl start mariadb
 sudo systemctl enable mariadb
 ```
 
